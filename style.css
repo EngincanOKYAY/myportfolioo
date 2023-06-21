@@ -65,8 +65,26 @@ body {
 }
 
 .contact a:hover{
-    color: rgb(119, 119, 229);
- 
+    color: rgb(119, 119, 229); 
+}
+
+@media screen and (max-width:800px)
+{
+    .header{
+        display: inline-block;
+        width: 95%;
+        padding: 0;
+
+    }
+    .contact{
+        display:inline-block ;
+        text-align: center;
+    }
+    .logo{
+        display: inline-block;
+    }
+
+   
 }
 
 /* /////headerfinish////// */
@@ -84,12 +102,16 @@ body {
     background: url(IMG_20170629_225912_569_resized_20230617_090520750.jpg) no-repeat right ;
     background-size: 380px;
     
+    
 }
+
+
 
 .home-content{
 
-    max-width: 600px;
+    max-width: 500px;
     line-height: 1.2;
+ 
 }
 
 .home-content h1{
@@ -146,6 +168,7 @@ margin-top: 20px;
     width: 170px;
     justify-content: space-between;
     display: flex;
+   
 }
 
 .icons a{
@@ -163,6 +186,31 @@ margin-top: 20px;
 
 }
 
+@media screen and (max-width:1300px)
+{
+    .home{
+      display: block;
+      background-image: none;
+      width: auto;
+    }
+    .home-content{
+        display: block;
+    }
+
+    .btn-box{
+        display: block;
+    }
+    .icons{
+        display: block;
+        position: unset;
+    }
+
+  
+}
+
+/* //////home finishhh/////// */
+/* //////home finishhh/////// */
+/* //////home finishhh/////// */
 .about {
     width: 100%;
     padding: 75px 0px;
@@ -221,6 +269,18 @@ button:hover{
     border: 2px solid white;
     cursor: pointer;
 }
+
+@media screen and (max-width:1185px)
+ {
+    .about{
+        display: block;
+        width: auto;
+        background-image: none;
+    }
+    
+}
+             /* /////aboutfinish//// */
+             /* /////aboutfinish//// */
              /* /////aboutfinish//// */
 
              
